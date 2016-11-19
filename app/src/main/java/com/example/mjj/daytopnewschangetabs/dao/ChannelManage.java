@@ -1,8 +1,7 @@
-package com.example.mjj.daytopnewschangetabs.edit;
+package com.example.mjj.daytopnewschangetabs.dao;
 
 import android.database.SQLException;
 
-import com.example.mjj.daytopnewschangetabs.dao.ChannelDao;
 import com.example.mjj.daytopnewschangetabs.db.SQLHelper;
 
 import java.util.ArrayList;

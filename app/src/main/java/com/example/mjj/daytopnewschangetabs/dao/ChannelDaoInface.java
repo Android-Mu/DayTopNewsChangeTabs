@@ -2,8 +2,6 @@ package com.example.mjj.daytopnewschangetabs.dao;
 
 import android.content.ContentValues;
 
-import com.example.mjj.daytopnewschangetabs.edit.ChannelItem;
-
 import java.util.List;
 import java.util.Map;
 

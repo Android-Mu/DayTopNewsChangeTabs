@@ -20,6 +20,8 @@ import com.example.mjj.daytopnewschangetabs.MainActivity;
 import com.example.mjj.daytopnewschangetabs.R;
 import com.example.mjj.daytopnewschangetabs.adapter.DragAdapter;
 import com.example.mjj.daytopnewschangetabs.adapter.OtherAdapter;
+import com.example.mjj.daytopnewschangetabs.dao.ChannelItem;
+import com.example.mjj.daytopnewschangetabs.dao.ChannelManage;
 import com.example.mjj.daytopnewschangetabs.view.DragGrid;
 import com.example.mjj.daytopnewschangetabs.view.OtherGridView;
 
@@ -32,7 +34,7 @@ import java.util.ArrayList;
  * Created by Mjj on 2016/11/18.
  */
 
-public class ChannelActivity extends BaseActivity implements AdapterView.OnItemClickListener {
+public class ChannelActivity extends GestureDetectorActivity implements AdapterView.OnItemClickListener {
 
     public static String TAG = "ChannelActivity";
 

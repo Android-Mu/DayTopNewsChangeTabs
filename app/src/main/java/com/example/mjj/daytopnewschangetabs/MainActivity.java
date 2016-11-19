@@ -16,8 +16,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.mjj.daytopnewschangetabs.edit.ChannelActivity;
-import com.example.mjj.daytopnewschangetabs.edit.ChannelItem;
-import com.example.mjj.daytopnewschangetabs.edit.ChannelManage;
+import com.example.mjj.daytopnewschangetabs.dao.ChannelItem;
+import com.example.mjj.daytopnewschangetabs.dao.ChannelManage;
 import com.example.mjj.daytopnewschangetabs.fragment.NewsFragment;
 import com.example.mjj.daytopnewschangetabs.fragment.NewsFragmentPagerAdapter;
 import com.example.mjj.daytopnewschangetabs.view.ColumnHorizontalScrollView;

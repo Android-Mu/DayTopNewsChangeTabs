@@ -8,7 +8,7 @@ import android.widget.BaseAdapter;
 import android.widget.TextView;
 
 import com.example.mjj.daytopnewschangetabs.R;
-import com.example.mjj.daytopnewschangetabs.edit.ChannelItem;
+import com.example.mjj.daytopnewschangetabs.dao.ChannelItem;
 
 import java.util.List;
 

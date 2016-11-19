@@ -1,4 +1,4 @@
-package com.example.mjj.daytopnewschangetabs.edit;
+package com.example.mjj.daytopnewschangetabs.dao;
 
 import java.io.Serializable;
 

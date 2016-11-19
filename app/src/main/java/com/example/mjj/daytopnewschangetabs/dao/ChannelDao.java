@@ -6,7 +6,6 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 import com.example.mjj.daytopnewschangetabs.db.SQLHelper;
-import com.example.mjj.daytopnewschangetabs.edit.ChannelItem;
 
 import java.util.ArrayList;
 import java.util.HashMap;

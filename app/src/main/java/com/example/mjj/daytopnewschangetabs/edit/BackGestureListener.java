@@ -8,9 +8,9 @@ import android.view.MotionEvent;
  */
 public class BackGestureListener implements OnGestureListener {
 
-	BaseActivity activity;
+	GestureDetectorActivity activity;
 	
-	public BackGestureListener(BaseActivity activity) {
+	public BackGestureListener(GestureDetectorActivity activity) {
 		this.activity = activity; 
 	}
 

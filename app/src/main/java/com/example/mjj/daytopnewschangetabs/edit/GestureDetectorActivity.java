@@ -12,7 +12,7 @@ import android.view.View;
  * Created by Mjj on 2016/11/18.
  */
 
-public class BaseActivity extends Activity {
+public class GestureDetectorActivity extends Activity {
 
     /**
      * 手势监听
