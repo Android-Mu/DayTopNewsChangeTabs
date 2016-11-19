@@ -1,7 +1,6 @@
 package com.example.mjj.daytopnewschangetabs;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
@@ -15,9 +14,9 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.mjj.daytopnewschangetabs.edit.ChannelActivity;
 import com.example.mjj.daytopnewschangetabs.dao.ChannelItem;
 import com.example.mjj.daytopnewschangetabs.dao.ChannelManage;
+import com.example.mjj.daytopnewschangetabs.edit.ChannelActivity;
 import com.example.mjj.daytopnewschangetabs.fragment.NewsFragment;
 import com.example.mjj.daytopnewschangetabs.fragment.NewsFragmentPagerAdapter;
 import com.example.mjj.daytopnewschangetabs.view.ColumnHorizontalScrollView;
@@ -121,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
             columnTextView.setPadding(5, 5, 5, 5);
             columnTextView.setId(i);
             columnTextView.setText(userChannelList.get(i).getName());
-            columnTextView.setTextColor(Color.BLACK);
+            columnTextView.setTextColor(getResources().getColorStateList(R.color.top_category_scroll_text_color_day));
             if (columnSelectIndex == i) {
                 columnTextView.setSelected(true);
             }

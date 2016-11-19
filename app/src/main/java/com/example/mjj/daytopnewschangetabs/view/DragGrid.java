@@ -375,7 +375,7 @@ public class DragGrid extends GridView {
         // 拖动的VIEW下方的POSTION
         int dPosition = pointToPosition(x, y);
         // 判断下方的POSTION是否是最开始2个不能拖动的
-        if (dPosition > 1) {
+        if (dPosition > 0) {
             if ((dPosition == -1) || (dPosition == dragPosition)) {
                 return;
             }
@@ -452,19 +452,16 @@ public class DragGrid extends GridView {
 
                         @Override
                         public void onAnimationStart(Animation animation) {
-                            // TODO Auto-generated method stub
                             isMoving = true;
                         }
 
                         @Override
                         public void onAnimationRepeat(Animation animation) {
-                            // TODO Auto-generated method stub
 
                         }
 
                         @Override
                         public void onAnimationEnd(Animation animation) {
-                            // TODO Auto-generated method stub
                             // 如果为最后个动画结束，那执行下面的方法
                             if (animation.toString().equalsIgnoreCase(LastAnimationID)) {
                                 DragAdapter mDragAdapter = (DragAdapter) getAdapter();
