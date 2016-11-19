@@ -36,8 +36,6 @@ import java.util.ArrayList;
 
 public class ChannelActivity extends GestureDetectorActivity implements AdapterView.OnItemClickListener {
 
-    public static String TAG = "ChannelActivity";
-
     /**
      * 用户栏目
      */
