@@ -17,18 +17,10 @@ import com.example.mjj.daytopnewschangetabs.R;
  */
 public class NewsFragment extends Fragment {
 
-    private String name = "Default";
-
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        Bundle bundle = getArguments();
-        if(null != bundle) {
-            name = bundle.getString("title_name");
-        }
         View frView = inflater.inflate(R.layout.fragment_news, null);
-        TextView textView = (TextView) frView.findViewById(R.id.tv_fg);
-        textView.setText(name);
         return frView;
     }
 }

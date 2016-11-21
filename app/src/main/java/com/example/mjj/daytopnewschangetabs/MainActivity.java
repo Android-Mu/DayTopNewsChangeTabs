@@ -153,10 +153,7 @@ public class MainActivity extends AppCompatActivity {
         fragments.clear();//清空
         int count = userChannelList.size();
         for (int i = 0; i < count; i++) {
-            Bundle data = new Bundle();
-            data.putString("title_name", userChannelList.get(i).getName());
             NewsFragment newfragment = new NewsFragment();
-            newfragment.setArguments(data);
             fragments.add(newfragment);
         }
         NewsFragmentPagerAdapter mAdapetr = new NewsFragmentPagerAdapter(getSupportFragmentManager(), fragments);
