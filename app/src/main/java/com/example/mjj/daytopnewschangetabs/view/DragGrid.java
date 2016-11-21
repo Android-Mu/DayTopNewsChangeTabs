@@ -161,7 +161,6 @@ public class DragGrid extends GridView {
 
     @Override
     public boolean onInterceptTouchEvent(MotionEvent ev) {
-        // TODO Auto-generated method stub
         if (ev.getAction() == MotionEvent.ACTION_DOWN) {
             downX = (int) ev.getX();
             downY = (int) ev.getY();
